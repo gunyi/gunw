@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: antlr:antlr:2.7.7">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar" />
+  </library>
+  <library name="Maven: aopalliance:aopalliance:1.0">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" />
+  </library>
+  <library name="Maven: asm:asm:3.3.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/asm/asm/3.3.1/asm-3.3.1.jar" />
+  </library>
+  <library name="Maven: asm:asm-commons:3.3">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/asm/asm-commons/3.3/asm-commons-3.3.jar" />
+  </library>
+  <library name="Maven: asm:asm-tree:3.3">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/asm/asm-tree/3.3/asm-tree-3.3.jar" />
+  </library>
+  <library name="Maven: c3p0:c3p0:0.9.1.2">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar" />
+  </library>
+  <library name="Maven: com.belerweb:pinyin4j:2.5.0">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/com/belerweb/pinyin4j/2.5.0/pinyin4j-2.5.0.jar" />
+  </library>
+  <library name="Maven: com.google.guava:guava:r09">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/com/google/guava/guava/r09/guava-r09.jar" />
+  </library>
+  <library name="Maven: com.google.inject.extensions:guice-multibindings:3.0">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/com/google/inject/extensions/guice-multibindings/3.0/guice-multibindings-3.0.jar" />
+  </library>
+  <library name="Maven: com.google.inject:guice:3.0">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/com/google/inject/guice/3.0/guice-3.0.jar" />
+  </library>
+  <library name="Maven: com.sun.xml.bind:jaxb-core:2.2.10-b140310.1920">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/com/sun/xml/bind/jaxb-core/2.2.10-b140310.1920/jaxb-core-2.2.10-b140310.1920.jar" />
+  </library>
+  <library name="Maven: com.sun.xml.bind:jaxb-impl:2.2.10-b140310.1920">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/com/sun/xml/bind/jaxb-impl/2.2.10-b140310.1920/jaxb-impl-2.2.10-b140310.1920.jar" />
+  </library>
+  <library name="Maven: commons-beanutils:commons-beanutils:1.8.0">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar" />
+  </library>
+  <library name="Maven: commons-codec:commons-codec:1.5">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar" />
+  </library>
+  <library name="Maven: commons-collections:commons-collections:3.2.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" />
+  </library>
+  <library name="Maven: commons-fileupload:commons-fileupload:1.3.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar" />
+  </library>
+  <library name="Maven: commons-io:commons-io:2.2">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/commons-io/commons-io/2.2/commons-io-2.2.jar" />
+  </library>
+  <library name="Maven: commons-lang:commons-lang:2.5">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar" />
+  </library>
+  <library name="Maven: commons-logging:commons-logging:1.2">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" />
+  </library>
+  <library name="Maven: dom4j:dom4j:1.6.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" />
+  </library>
+  <library name="Maven: javax.activation:activation:1.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/javax/activation/activation/1.1/activation-1.1.jar" />
+  </library>
+  <library name="Maven: javax.inject:javax.inject:1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/javax/inject/javax.inject/1/javax.inject-1.jar" />
+  </library>
+  <library name="Maven: javax.mail:mail:1.4">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/javax/mail/mail/1.4/mail-1.4.jar" />
+  </library>
+  <library name="Maven: javax.servlet:jsp-api:2.0">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar" />
+  </library>
+  <library name="Maven: javax.servlet:servlet-api:2.5">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" />
+  </library>
+  <library name="Maven: junit:junit:4.10">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/junit/junit/4.10/junit-4.10.jar" />
+  </library>
+  <library name="Maven: log4j:log4j:1.2.12">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar" />
+  </library>
+  <library name="Maven: mysql:mysql-connector-java:5.1.32">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/mysql/mysql-connector-java/5.1.32/mysql-connector-java-5.1.32.jar" />
+  </library>
+  <library name="Maven: net.sf.ehcache:ehcache-core:2.6.6">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/net/sf/ehcache/ehcache-core/2.6.6/ehcache-core-2.6.6.jar" />
+  </library>
+  <library name="Maven: net.sf.ezmorph:ezmorph:1.0.6">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar" />
+  </library>
+  <library name="Maven: net.sf.json-lib:json-lib:2.4">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/net/sf/json-lib/json-lib/2.4/json-lib-2.4.jar" />
+  </library>
+  <library name="Maven: ognl:ognl:3.0.6">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/ognl/ognl/3.0.6/ognl-3.0.6.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-lang3:3.2">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/commons/commons-lang3/3.2/commons-lang3-3.2.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-core:3.0.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/cxf/cxf-core/3.0.1/cxf-core-3.0.1.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-bindings-soap:3.0.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/cxf/cxf-rt-bindings-soap/3.0.1/cxf-rt-bindings-soap-3.0.1.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-bindings-xml:3.0.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/cxf/cxf-rt-bindings-xml/3.0.1/cxf-rt-bindings-xml-3.0.1.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-databinding-jaxb:3.0.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/cxf/cxf-rt-databinding-jaxb/3.0.1/cxf-rt-databinding-jaxb-3.0.1.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-frontend-jaxws:3.0.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/cxf/cxf-rt-frontend-jaxws/3.0.1/cxf-rt-frontend-jaxws-3.0.1.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-frontend-simple:3.0.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/cxf/cxf-rt-frontend-simple/3.0.1/cxf-rt-frontend-simple-3.0.1.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-transports-http:3.0.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/cxf/cxf-rt-transports-http/3.0.1/cxf-rt-transports-http-3.0.1.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-ws-addr:3.0.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/cxf/cxf-rt-ws-addr/3.0.1/cxf-rt-ws-addr-3.0.1.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-ws-policy:3.0.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/cxf/cxf-rt-ws-policy/3.0.1/cxf-rt-ws-policy-3.0.1.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-wsdl:3.0.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/cxf/cxf-rt-wsdl/3.0.1/cxf-rt-wsdl-3.0.1.jar" />
+  </library>
+  <library name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar" />
+  </library>
+  <library name="Maven: org.apache.neethi:neethi:3.0.3">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/neethi/neethi/3.0.3/neethi-3.0.3.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi:3.10-FINAL">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/poi/poi/3.10-FINAL/poi-3.10-FINAL.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi-ooxml:3.10-FINAL">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/poi/poi-ooxml/3.10-FINAL/poi-ooxml-3.10-FINAL.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi-ooxml-schemas:3.10-FINAL">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/poi/poi-ooxml-schemas/3.10-FINAL/poi-ooxml-schemas-3.10-FINAL.jar" />
+  </library>
+  <library name="Maven: org.apache.shiro:shiro-all:1.2.2">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar" />
+  </library>
+  <library name="Maven: org.apache.shiro:shiro-core:1.2.2">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2.jar" />
+  </library>
+  <library name="Maven: org.apache.shiro:shiro-guice:1.2.2">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/shiro/shiro-guice/1.2.2/shiro-guice-1.2.2.jar" />
+  </library>
+  <library name="Maven: org.apache.struts:struts2-convention-plugin:2.3.24">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/struts/struts2-convention-plugin/2.3.24/struts2-convention-plugin-2.3.24.jar" />
+  </library>
+  <library name="Maven: org.apache.struts:struts2-core:2.3.24">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/struts/struts2-core/2.3.24/struts2-core-2.3.24.jar" />
+  </library>
+  <library name="Maven: org.apache.struts:struts2-spring-plugin:2.3.24">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/struts/struts2-spring-plugin/2.3.24/struts2-spring-plugin-2.3.24.jar" />
+  </library>
+  <library name="Maven: org.apache.struts.xwork:xwork-core:2.3.24">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/struts/xwork/xwork-core/2.3.24/xwork-core-2.3.24.jar" />
+  </library>
+  <library name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.1.0">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/ws/xmlschema/xmlschema-core/2.1.0/xmlschema-core-2.1.0.jar" />
+  </library>
+  <library name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar" />
+  </library>
+  <library name="Maven: org.apiguardian:apiguardian-api:1.0.0">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar" />
+  </library>
+  <library name="Maven: org.aspectj:aspectjweaver:1.7.4">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/aspectj/aspectjweaver/1.7.4/aspectjweaver-1.7.4.jar" />
+  </library>
+  <library name="Maven: org.codehaus.woodstox:stax2-api:3.1.4">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar" />
+  </library>
+  <library name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.0">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/codehaus/woodstox/woodstox-core-asl/4.4.0/woodstox-core-asl-4.4.0.jar" />
+  </library>
+  <library name="Maven: org.freemarker:freemarker:2.3.22">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/freemarker/freemarker/2.3.22/freemarker-2.3.22.jar" />
+  </library>
+  <library name="Maven: org.hamcrest:hamcrest-core:1.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" />
+  </library>
+  <library name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar" />
+  </library>
+  <library name="Maven: org.hibernate:hibernate-core:5.0.7.Final">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/hibernate/hibernate-core/5.0.7.Final/hibernate-core-5.0.7.Final.jar" />
+  </library>
+  <library name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+  </library>
+  <library name="Maven: org.javassist:javassist:3.18.1-GA">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar" />
+  </library>
+  <library name="Maven: org.jboss:jandex:2.0.0.Final">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar" />
+  </library>
+  <library name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter-api:5.2.0-M1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/junit/jupiter/junit-jupiter-api/5.2.0-M1/junit-jupiter-api-5.2.0-M1.jar" />
+  </library>
+  <library name="Maven: org.junit.platform:junit-platform-commons:1.2.0-M1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/junit/platform/junit-platform-commons/1.2.0-M1/junit-platform-commons-1.2.0-M1.jar" />
+  </library>
+  <library name="Maven: org.opentest4j:opentest4j:1.0.0">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar" />
+  </library>
+  <library name="Maven: org.quartz-scheduler:quartz:2.2.3">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/quartz-scheduler/quartz/2.2.3/quartz-2.2.3.jar" />
+  </library>
+  <library name="Maven: org.quartz-scheduler:quartz-jobs:2.2.3">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/quartz-scheduler/quartz-jobs/2.2.3/quartz-jobs-2.2.3.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-api:1.6.6">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-log4j12:1.6.6">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-aop:4.2.4.RELEASE">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/springframework/spring-aop/4.2.4.RELEASE/spring-aop-4.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-beans:4.2.4.RELEASE">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/springframework/spring-beans/4.2.4.RELEASE/spring-beans-4.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context:4.2.4.RELEASE">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context-support:4.2.4.RELEASE">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/springframework/spring-context-support/4.2.4.RELEASE/spring-context-support-4.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-core:4.2.4.RELEASE">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/springframework/spring-core/4.2.4.RELEASE/spring-core-4.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-expression:4.2.4.RELEASE">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/springframework/spring-expression/4.2.4.RELEASE/spring-expression-4.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jdbc:4.2.4.RELEASE">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/springframework/spring-jdbc/4.2.4.RELEASE/spring-jdbc-4.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-orm:4.2.4.RELEASE">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/springframework/spring-orm/4.2.4.RELEASE/spring-orm-4.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-tx:4.2.4.RELEASE">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/springframework/spring-tx/4.2.4.RELEASE/spring-tx-4.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-web:4.2.4.RELEASE">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: stax:stax-api:1.0.1">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar" />
+  </library>
+  <library name="Maven: wsdl4j:wsdl4j:1.6.3">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/wsdl4j/wsdl4j/1.6.3/wsdl4j-1.6.3.jar" />
+  </library>
+  <library name="Maven: xml-apis:xml-apis:1.0.b2">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar" />
+  </library>
+  <library name="Maven: xml-resolver:xml-resolver:1.2">
+    <archive path="D:/Java工程软件/apache-maven-3.5.2/MavenRepository/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar" />
+  </library>
+</eclipse-userlibraries>
+

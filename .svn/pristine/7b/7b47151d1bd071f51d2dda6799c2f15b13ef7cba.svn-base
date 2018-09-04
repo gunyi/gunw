@@ -1,0 +1,25 @@
+package cn.me.kpi.web.action;
+
+import cn.me.kpi.domain.Role;
+import cn.me.kpi.service.IRoleService;
+import cn.me.kpi.web.action.base.BaseAction;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
+
+@Controller
+@Scope("prototype")
+public class RoleAction extends BaseAction<Role> {
+    @Autowired
+    private IRoleService roleService;
+
+    private String functionIds;  // 接收传来的权限参数
+    public void setFunctionIds(String functionIds) {
+        this.functionIds = functionIds;
+    }
+
+    public String add() {
+        roleService.save(model, functionIds);
+        return LIST;
+    }
+}

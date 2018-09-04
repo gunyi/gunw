@@ -1,0 +1,184 @@
+{
+  "teacher" :
+  [
+    {
+      "id" : "one",
+      "name" : "日常接待工作",
+      "weight" : 0.15,
+      "LevelTwo" : [
+          {
+            "content" : "协助主管领导完成上级来校检查、评估、调研等接待工作；协助主管领导做好友好院校来访、考察、交流的组织与接待工作",
+            "weight" : 0.15,
+            "target" : "行程安排合理妥当，来访人员满意度≥95%",
+            "score" : 100,
+            "completionTime" : "2018/6/30",
+            "dataSource" : "校领导、校属各单位",
+            "gradeStandard" : "满意度≥95%为优秀，≥80%为良好，≥60%为及格",
+            "selfEvaluationScore" : 0,
+            "superiorScore" : 0
+          }
+      ]
+    },
+    {
+      "id" : "two",
+      "name" : "行政工作",
+      "weight" : 0.25,
+      "LevelTwo" : [
+        {
+          "content" : "做好学校各项活动协调会召开的组织工作及会议准备；协助主管领导做好学校各项大型活动的统筹协调工作",
+          "weight" : 0.10,
+          "target" : "组织协调工作准确、及时、无差错",
+          "score" : 100,
+          "completionTime" : "2018/6/30",
+          "dataSource" : "校领导、校属各单位",
+          "gradeStandard" : "出现差错一次扣2分",
+          "selfEvaluationScore" : 0,
+          "superiorScore" : 0
+        },
+        {
+          "content" : "完成学校综合统计数据的收集、整理、汇总工作并及时上报",
+          "weight" : 0.10,
+          "target" : "组织协调工作准确、及时、无差错",
+          "score" : 100,
+          "completionTime" : "2018/6/30",
+          "dataSource" : "校领导、校属各单位",
+          "gradeStandard" : "出现差错一次扣2分",
+          "selfEvaluationScore" : 0,
+          "superiorScore" : 0
+        },
+        {
+          "content" : "掌握行政楼七楼会议室的申请与使用情况；学校办公室预算制定，做好校办日常报账；学校酒水、礼品的管理及发放",
+          "weight" : 0.10,
+          "target" : "组织协调工作准确、及时、无差错",
+          "score" : 100,
+          "completionTime" : "2018/6/30",
+          "dataSource" : "校领导、校属各单位",
+          "gradeStandard" : "出现差错一次扣2分",
+          "selfEvaluationScore" : 0,
+          "superiorScore" : 0
+        }
+      ]
+
+    },
+    {
+      "id" : "three",
+      "name" : "学生助理团队管理工作",
+      "weight" : 0.15,
+      "LevelTwo" : [
+        {
+          "content" : "协助主管领导做好学生助理的招聘与遴选",
+          "weight" : 0.05,
+          "target" : "学生助理日常值班与会务、礼仪工作完整、高效",
+          "score" : 100,
+          "completionTime" : "2018/6/30",
+          "dataSource" : "校领导、校办各二级部门",
+          "gradeStandard" : "综合满意度满意度≥95%为优秀，≥80%为良好，≥60%为及格",
+          "selfEvaluationScore" : 0,
+          "superiorScore" : 0
+        },
+        {
+          "content" : "协助主管领导做好学生助理的日常培训与值班安排，做好定期考核工作，加强团队文化建设",
+          "weight" : 0.10,
+          "target" : "学生助理日常值班与会务、礼仪工作完整、高效",
+          "score" : 100,
+          "completionTime" : "2018/6/30",
+          "dataSource" : "校领导、校办各二级部门",
+          "gradeStandard" : "综合满意度满意度≥95%为优秀，≥80%为良好，≥60%为及格",
+          "selfEvaluationScore" : 0,
+          "superiorScore" : 0
+        }
+      ]
+    },
+    {
+      "id" : "four",
+      "name" : "校领导服务工作",
+      "weight" : 0.15,
+      "LevelTwo" : [
+        {
+          "content" : "校领导参加校内各种礼仪活动及外出工作的事务安排、服务与保障工作；做好校长邀请来访我校的嘉宾的邮件跟踪和接待工作",
+          "weight" : 0.10,
+          "target" : "行程安排合理妥当，来访人员满意度≥95%",
+          "score" : 100,
+          "completionTime" : "2018/6/30",
+          "dataSource" : "校领导、校属各单位",
+          "gradeStandard" : "满意度≥95%为优秀，≥80%为良好，≥60%为及格",
+          "selfEvaluationScore" : 0,
+          "superiorScore" : 0
+        },
+        {
+          "content" : "校领导日常接待、差旅的报账，办公用品的更换、补充；做好校领导交办的其他事项",
+          "weight" : 0.05,
+          "target" : "报账无差错，办公用品更换、补充及时；工作完成及时、有效",
+          "score" : 100,
+          "completionTime" : "2018/6/30",
+          "dataSource" : "校领导",
+          "gradeStandard" : "满意度≥95%为优秀，≥80%为良好，≥60%为及格",
+          "selfEvaluationScore" : 0,
+          "superiorScore" : 0
+        }
+      ]
+    },
+    {
+      "id" : "five",
+      "name" : "学年专项工作",
+      "weight" : 0.30,
+      "LevelTwo" : [
+        {
+          "content" : "配合领导完成规章制度修订工作",
+          "weight" : 0.05,
+          "target" : "在规定节点内按时完成",
+          "score" : 100,
+          "completionTime" : "2018/6/30",
+          "dataSource" : "目标管理小组、校领导、校属各单位",
+          "gradeStandard" : "定性指标",
+          "selfEvaluationScore" : 0,
+          "superiorScore" : 0
+        },
+        {
+          "content" : "配合领导完成流程管理工作",
+          "weight" : 0.05,
+          "target" : "在规定节点内按时完成",
+          "score" : 100,
+          "completionTime" : "2018/6/30",
+          "dataSource" : "目标管理小组、校领导、校属各单位",
+          "gradeStandard" : "定性指标",
+          "selfEvaluationScore" : 0,
+          "superiorScore" : 0
+        },
+        {
+          "content" : "配合领导完成行政职能流程梳理工作",
+          "weight" : 0.05,
+          "target" : "完成职能流程展示、平台搭建工作及部分常用流程上线工作",
+          "score" : 100,
+          "completionTime" : "2018/6/30",
+          "dataSource" : "目标管理小组、校领导、校属各单位",
+          "gradeStandard" : "定性指标",
+          "selfEvaluationScore" : 0,
+          "superiorScore" : 0
+        },
+        {
+          "content" : "配合领导完成无纸化办公",
+          "weight" : 0.10,
+          "target" : "全部完成",
+          "score" : 100,
+          "completionTime" : "2018/6/30",
+          "dataSource" : "目标管理小组、校领导、校属各单位",
+          "gradeStandard" : "定性指标",
+          "selfEvaluationScore" : 0,
+          "superiorScore" : 0
+        },
+        {
+          "content" : "配合领导完成校庆启动工作",
+          "weight" : 0.05,
+          "target" : "在规定时间节点内按时完成",
+          "score" : 100,
+          "completionTime" : "2018/6/30",
+          "dataSource" : "目标管理小组、校领导、校属各单位",
+          "gradeStandard" : "定性指标",
+          "selfEvaluationScore" : 0,
+          "superiorScore" : 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.devMode" value="false" />
+
+		<constant name="struts.objectFactory" value="spring"/>
+
+	<package name="basicstruts2" extends="struts-default">
+		<!--<interceptors>-->
+			<!--&lt;!&ndash; 注册自定义拦截器 &ndash;&gt;-->
+			<!--<interceptor name="bosLoginInterceptor" class="com.itheima.bos.web.interceptor.BOSLoginInterceptor">-->
+				<!--&lt;!&ndash; 指定哪些方法不需要拦截 &ndash;&gt;-->
+				<!--<param name="excludeMethods">login</param>-->
+			<!--</interceptor>-->
+			<!--&lt;!&ndash; 定义拦截器栈 &ndash;&gt;-->
+			<!--<interceptor-stack name="myStack">-->
+				<!--<interceptor-ref name="bosLoginInterceptor"></interceptor-ref>-->
+				<!--<interceptor-ref name="defaultStack"></interceptor-ref>-->
+			<!--</interceptor-stack>-->
+		<!--</interceptors>-->
+		<!-- 
+		<default-interceptor-ref name="myStack"/>
+		 -->
+		
+		<!-- 全局结果集定义 -->
+		<global-results>
+			<result name="login" type="redirect">/login.jsp</result>
+			<result name="unauthorized">/unauthorized.jsp</result>
+		</global-results>
+		
+		<global-exception-mappings>
+			<exception-mapping result="unauthorized" 
+				exception="org.apache.shiro.authz.UnauthorizedException"/>
+		</global-exception-mappings>
+		
+		<!-- 需要进行权限控制的页面访问 -->
+		<action name="page_*_*">
+			<result type="dispatcher">/WEB-INF/pages/{1}/{2}.jsp</result>
+		</action>
+		<!-- 用户管理 -->
+		<action name="userAction_*" class="userAction" method="{1}">
+			<result name="home" type="redirect">/index.jsp</result>
+			<result name="list" >/WEB-INF/pages/admin/userlist.jsp</result>
+		</action>
+        <!-- 教师kpi管理 -->
+		<action name="teacherAction_*" class="teacherAction" method="{1}">
+            <result name="list" type="redirect">/index.jsp</result>
+            <result name="table">/WEB-INF/pages/templete/table.jsp</result>
+            <result name="manage">/WEB-INF/pages/teacher/manage.jsp</result>
+            <result name="filenotfound">/file_not_found.jsp</result>
+		</action>
+        <!-- admin功能权限管理 -->
+		<action name="functionAction_*" class="functionAction" method="{1}">
+            <result name="list">/WEB-INF/pages/admin/function.jsp</result>
+		</action>
+        <!-- admin功能权限管理 -->
+		<action name="roleAction_*" class="roleAction" method="{1}">
+            <result name="list">/WEB-INF/pages/admin/role.jsp</result>
+		</action>
+        <!-- 文件上传管理 -->
+		<action name="kpiAction_*" class="KPIAction" method="{1}">
+            <result name="list">/WEB-INF/pages/admin/role.jsp</result>
+		</action>
+
+	</package>
+</struts>

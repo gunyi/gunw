@@ -1,0 +1,134 @@
+package cn.me.kpi.util;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
+
+/**
+ * Created by Edward on 2017/11/14.
+ */
+
+public class TimeUtils {
+
+    private TimeUtils(){
+        throw new UnsupportedOperationException("请不要试图new出我 哈哈哈！！");
+    }
+
+
+    public static final SimpleDateFormat DEFAULT_SDF = new SimpleDateFormat("yyyy/MM/dd", Locale.getDefault());
+    public static final SimpleDateFormat YMD_SDF = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+//    public static final SimpleDateFormat MD_ZH_SDF = new SimpleDateFormat("M鏈坉鏃�, Locale.getDefault());
+//    public static final SimpleDateFormat YMD_ZH_SDF = new SimpleDateFormat("yyyy骞碝鏈坉鏃�, Locale.getDefault());
+
+
+    public static String milliseconds2String(long milliseconds){
+        return milliseconds2String(milliseconds,DEFAULT_SDF);
+    }
+
+
+    private static String milliseconds2String(long milliseconds, SimpleDateFormat format) {
+        return format.format(new Date(milliseconds));
+    }
+
+
+    public static long string2Milliseconds(String time){
+        return string2Milliseconds(time,DEFAULT_SDF);
+    }
+
+
+    private static long string2Milliseconds(String time, SimpleDateFormat format) {
+        try {
+            return format.parse(time).getTime();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return -1;
+    }
+
+    public static Date string2Date(String time){
+        return string2Date(time,DEFAULT_SDF);
+    }
+
+
+    private static Date string2Date(String time, SimpleDateFormat format) {
+        try {
+            return format.parse(time);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    public static String date2String(Date date){
+        return date2String(date,DEFAULT_SDF);
+    }
+
+
+    private static String date2String(Date date, SimpleDateFormat format) {
+        return format.format(date);
+    }
+
+
+    public static long date2Milliseconds(Date date){
+        return date.getTime();
+    }
+
+
+    public static Date milliseconds2Date(long milliseconds){
+        return new Date(milliseconds);
+    }
+
+    public static long getCurTimeMills(){
+        return System.currentTimeMillis();
+    }
+
+
+    public static String getCurTimeString(SimpleDateFormat format){
+        return date2String(new Date(),format);
+    }
+
+
+    public static Date getCurTimeDate() {
+        return new Date();
+    }
+
+    /**
+     * util Date 2 sql Date
+     * @param date
+     * @return
+     */
+    public static java.sql.Date date2SqlDate(Date date){
+        return new java.sql.Date(date.getTime());
+    }
+
+    /**
+     * sql.Date 2 util.Date
+     * @param date
+     * @return
+     */
+    public static Date sqlDate2Date(java.sql.Date date){
+        return new Date(date.getTime());
+    }
+
+    /**
+     * 判断闰年
+     * @param year
+     * @return
+     */
+    public static boolean isLeapYear(int year){
+        return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
+    }
+
+
+
+
+
+
+    public static long adjustDate(Date date) {
+        return date.getTime() + (date.getTimezoneOffset() * 60 * 1000);
+    }
+}
+

@@ -1,0 +1,131 @@
+package cn.me.kpi.web.action;
+
+import cn.me.kpi.domain.Department;
+import cn.me.kpi.domain.TeacherKPI;
+import cn.me.kpi.domain.User;
+import cn.me.kpi.service.ITeacherKPIService;
+import cn.me.kpi.util.DepartmentUitls;
+import cn.me.kpi.util.KPIUtils;
+import cn.me.kpi.web.action.base.BaseAction;
+import net.sf.json.JSONObject;
+import org.apache.struts2.ServletActionContext;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
+import org.springframework.util.FileCopyUtils;
+
+import javax.servlet.ServletInputStream;
+import java.io.*;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+
+@Controller
+@Scope("prototype")
+public class TeacherAction extends BaseAction<TeacherKPI> {
+
+    @Autowired
+    private ITeacherKPIService teacherKPIService;
+
+    /**
+     * 列出所有教师已提交的kpi表格记录
+     * @return
+     */
+    public String list() {
+
+        return NONE;
+    }
+
+    public String pageQuery() {
+        List<TeacherKPI> list = teacherKPIService.findKPI();
+        this.java2Json(list, new String[]{"users","roles","username","roleNames",
+                "password","salary","birthday","gender","station"
+                ,"telephone","remark","department","parentDept"});
+        return NONE;
+    }
+
+    /**
+     * 接收教师上传的kpi文件
+     * @return
+     */
+    //属性值，单文件的情况，对应的是upload3.js中的name属性，name属性值为file，此时struts就可以获取到file的文件对象，不需要实例化，struts框架会自动注入对象值，打开调试窗口，
+    private File file;
+    public void setFile(File file) {
+        this.file = file;
+    }
+    //单文件上传的文件名，spring上传特性，文件名格式为name属性+FileName
+    private String fileFileName;
+    public void setFileFileName(String fileFileName) {
+        this.fileFileName = fileFileName;
+    }
+    //属性值，接收webupload自带的参数
+    private String chunk; // 当前第几个分片
+    public void setChunk(String chunk) {
+        this.chunk = chunk;
+    }
+    private String chunks;// 总分片个数
+    public void setChunks(String chunks) {
+        this.chunks = chunks;
+    }
+    private String size;// 单个文件的总大小
+    public void setSize(String size) {
+        this.size = size;
+    }
+    public String uploadFile() {
+        String result = "";
+        String kpiFileName = "";
+        Date date = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh-mm-ss");
+        String dateString = sdf.format(date);  // kpi文件传上来的时间
+        File dir = new File("H:\\kpifile\\teacherkpi"); // TODO 写入H盘测试成功！ 需要另外选地方
+        if(!dir.exists()) {
+            dir.mkdirs();
+        }
+        JSONObject json = new JSONObject();
+        json.put("code","1");  //默认成功
+        json.put("result", result);
+        try{
+            String type = ServletActionContext.getRequest().getParameter("type");
+            if(!type.contains("excel")) {
+                // 不是Excel类型   不接受
+                result = "传输的文件不是Excel类型";
+                throw new IOException("传输的文件不是Excel类型");
+            }
+            kpiFileName = dir.getCanonicalPath() + "\\" + dateString + ".xls";  // 拼接文件名
+            FileCopyUtils.copy(file, new File(kpiFileName));
+
+            // 将本次提交的信息写入数据库
+            User user = KPIUtils.getLoginUser();
+            TeacherKPI kpi = new TeacherKPI();
+            kpi.setTeacher(user);
+            // 默认教师提交的kpi需要学务处的人批改
+            Department department = new Department("1");
+            kpi.setScoreDepartment(department);
+            kpi.setKpiFilePath(kpiFileName);
+            kpi.setDate(dateString);
+            teacherKPIService.save(kpi);
+        }catch (IOException e) {
+            json.put("code", "0");
+            json.put("result", result);
+            System.err.println("有人上传了文件  但传输的文件不是Excel类型");
+        }catch (Exception ex) {
+            json.put("code", "0");
+            json.put("result", result);
+            // rollback
+            File file = new File(kpiFileName);
+            if (file.exists()) {
+                file.delete();
+            }
+            ex.printStackTrace();
+        }
+        try {
+            // 回传信息
+            ServletActionContext.getResponse().setContentType("text/json;charset=utf-8");
+            ServletActionContext.getResponse().getWriter().print(json.toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return NONE;
+    }
+}

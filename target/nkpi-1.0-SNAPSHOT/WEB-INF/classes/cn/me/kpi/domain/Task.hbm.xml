@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.me.kpi.domain">
+    <class name="cn.me.kpi.domain.Task" table="task">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" length="32" />
+            <!--<generator class="" />-->
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="name" not-null="true" />
+        </property>
+        <property name="type" type="java.lang.Integer">
+            <column name="type" not-null="true" />
+        </property>
+        <property name="status" type="java.lang.Integer">
+            <column name="status" not-null="true" />
+        </property>
+        <property name="startTime" type="java.util.Date">
+            <column name="start_time" sql-type="datetime" />
+        </property>
+        <property name="endTime" type="java.util.Date">
+            <column name="end_time" sql-type="datetime"/>
+        </property>
+        <property name="expire" type="java.lang.Integer">
+            <column name="expire" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,26 @@
+package cn.me.kpi.dao.impl;
+
+import cn.me.kpi.dao.ITeacherDao;
+import cn.me.kpi.dao.base.impl.BaseDaoImpl;
+import cn.me.kpi.domain.TeacherKPI;
+import org.hibernate.criterion.DetachedCriteria;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public class TeacherDaoImpl extends BaseDaoImpl<TeacherKPI> implements ITeacherDao {
+
+    @Override
+    public List<TeacherKPI> findAllKPI() {
+        DetachedCriteria criteria = DetachedCriteria.forClass(TeacherKPI.class);
+        return (List<TeacherKPI>) this.getHibernateTemplate().findByCriteria(criteria);
+    }
+
+    @Override
+    public List<TeacherKPI> findKPIByUserId(String teacher_id) {
+        String hql = "FROM TeacherKPI WHERE teacher_id = ?";
+        return (List<TeacherKPI>) this.getHibernateTemplate().find(hql, teacher_id);
+    }
+
+}

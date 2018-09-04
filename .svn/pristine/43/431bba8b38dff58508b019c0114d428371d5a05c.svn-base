@@ -1,0 +1,5 @@
+package cn.me.kpi.domain;
+
+// TODO 教师暂时没有写 使用hibernate反转生成
+public class Teacher {
+}

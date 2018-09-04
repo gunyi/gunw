@@ -1,0 +1,20 @@
+package cn.me.kpi.web.action;
+
+import cn.me.kpi.domain.Teacher;
+import cn.me.kpi.web.action.base.BaseAction;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
+
+@Controller
+@Scope("prototype")
+public class TeacherAction extends BaseAction<Teacher> {
+
+    /**
+     * 列出所有教师已提交的kpi表格记录
+     * @return
+     */
+    public String list() {
+
+        return NONE;
+    }
+}

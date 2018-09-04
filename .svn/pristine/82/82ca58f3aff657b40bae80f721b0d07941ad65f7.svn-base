@@ -1,0 +1,23 @@
+package cn.me.kpi.service;
+
+import cn.me.kpi.domain.TeacherKPI;
+
+import java.util.List;
+
+/**
+ * 教师KPI服务
+ */
+public interface ITeacherKPIService {
+
+    /**
+     * 查询教师kpi详情信息
+     * @return
+     */
+    List<TeacherKPI> findKPI();
+
+    /**
+     * 保存教师提交的绩效信息
+     * @param kpi
+     */
+    void save(TeacherKPI kpi);
+}

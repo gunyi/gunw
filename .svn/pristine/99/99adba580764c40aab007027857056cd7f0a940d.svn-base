@@ -1,0 +1,19 @@
+package cn.edward.test;
+
+import org.junit.jupiter.api.Test;
+
+import java.util.Date;
+
+public class JunitTest {
+
+    @Test
+    private void test1() {
+
+    }
+
+    public static void main(String[] args) {
+        Date date = new Date();
+        date.setTime(43281);
+        System.out.println(date);
+    }
+}

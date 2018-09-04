@@ -1,0 +1,61 @@
+package cn.me.kpi.service.impl;
+
+import cn.me.kpi.dao.IFunctionDao;
+import cn.me.kpi.domain.Function;
+import cn.me.kpi.domain.User;
+import cn.me.kpi.service.IFunctionService;
+import cn.me.kpi.util.KPIUtils;
+import cn.me.kpi.util.PageBean;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+
+@Service
+@Transactional
+public class FunctionServiceImpl implements IFunctionService {
+    @Autowired
+    private IFunctionDao functionDao;
+    @Override
+    public List<Function> findMenu() {
+        List<Function> list = null;
+        User user = KPIUtils.getLoginUser();
+        if(user.getUsername().equals("admin")) {
+            list = functionDao.findAllMenus();
+        }else {
+            list = functionDao.findMenuByUserId(user.getId());
+        }
+        return list;
+    }
+
+    @Override
+    public void pageQuery(PageBean pageBean) {
+        functionDao.pageQuery(pageBean);
+    }
+
+    @Override
+    public List<Function> findAll() {
+       return functionDao.findAll();
+    }
+
+    @Override
+    public void save(Function model) {
+        // 如果父功能点不存在  将其置为null
+        Function parentFunction = model.getParentFunction();
+        if(parentFunction != null && parentFunction.getId().equals("")) {
+            model.setParentFunction(null);
+        }
+        functionDao.save(model);
+    }
+
+    @Override
+    public List<Function> findAllFunctions() {
+        return functionDao.findAllFunctions();
+    }
+
+    @Override
+    public List<Function> findFunctionsByUserId(String userId) {
+        return functionDao.findFunctionsByUserId(userId);
+    }
+}

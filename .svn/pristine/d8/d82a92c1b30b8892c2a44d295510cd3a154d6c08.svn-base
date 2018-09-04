@@ -1,0 +1,7 @@
+package cn.me.kpi.dao;
+
+import cn.me.kpi.dao.base.IBaseDao;
+import cn.me.kpi.domain.Function;
+
+public interface IFunctionDao extends IBaseDao<Function> {
+}
